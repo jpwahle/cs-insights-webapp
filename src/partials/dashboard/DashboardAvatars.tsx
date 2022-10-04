@@ -1,8 +1,8 @@
+import User01 from "@/images/about-jan-philip-wahle.png";
+import User03 from "@/images/about-saif-m-mohammad.jpg";
+import User02 from "@/images/about-terry-ruas.jpg";
 import Image from "next/future/image";
 import Link from "next/link";
-import User01 from "../../images/about-jan-philip-wahle.png";
-import User03 from "../../images/about-saif-m-mohammad.jpg";
-import User02 from "../../images/about-terry-ruas.jpg";
 
 function DashboardAvatars() {
   return (

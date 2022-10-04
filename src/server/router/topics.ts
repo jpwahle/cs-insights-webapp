@@ -1,5 +1,5 @@
+import { env } from "@/env/server.mjs";
 import { z } from "zod";
-import { env } from "../../env/server.mjs";
 import { createRouter } from "./context";
 
 const predictionServiceUrl = env.PREDICTION_SERVICE_URL;

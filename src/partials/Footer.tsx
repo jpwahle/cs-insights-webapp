@@ -1,7 +1,7 @@
+import { trpc } from "@/utils/trpc";
 import getConfig from "next/config.js";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { trpc } from "../utils/trpc";
 
 function Footer() {
   const [webAppVersion, setWebAppVersion] = useState("v0.0.1");

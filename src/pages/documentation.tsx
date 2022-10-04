@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
 
-import DocumentationContent from "../partials/DocumentationContent";
-import Footer from "../partials/Footer";
-import Header from "../partials/LandingHeader";
+import DocumentationContent from "@/partials/DocumentationContent";
+import Footer from "@/partials/Footer";
+import Header from "@/partials/LandingHeader";
 
 function Documentation() {
   const [sidebarNavOpen, setSidebarNavOpen] = useState(false);

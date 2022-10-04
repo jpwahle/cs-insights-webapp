@@ -1,11 +1,17 @@
 /* global document */
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
-import { Chart, Legend, PolarAreaController, RadialLinearScale, Tooltip } from "chart.js";
+import {
+  Chart,
+  Legend,
+  PolarAreaController,
+  RadialLinearScale,
+  Tooltip,
+} from "chart.js";
 import "chartjs-adapter-moment";
 
 // Import utilities
-import { tailwindConfig } from "../utils/Utils";
+import { tailwindConfig } from "@/utils/Utils";
 
 Chart.register(PolarAreaController, RadialLinearScale, Tooltip, Legend);
 
@@ -56,9 +62,11 @@ function PolarChart({ data, width, height }) {
               // Button element
               const button = document.createElement("button");
               button.classList.add("btn-xs");
-              button.style.backgroundColor = tailwindConfig().theme.colors.white;
+              button.style.backgroundColor =
+                tailwindConfig().theme.colors.white;
               button.style.borderWidth = tailwindConfig().theme.borderWidth[1];
-              button.style.borderColor = tailwindConfig().theme.colors.slate[200];
+              button.style.borderColor =
+                tailwindConfig().theme.colors.slate[200];
               button.style.color = tailwindConfig().theme.colors.slate[500];
               button.style.boxShadow = tailwindConfig().theme.boxShadow.md;
               button.style.opacity = item.hidden ? ".3" : "";
@@ -95,12 +103,12 @@ function PolarChart({ data, width, height }) {
   }, []);
 
   return (
-    <div className="grow flex flex-col justify-center">
+    <div className="flex grow flex-col justify-center">
       <div>
         <canvas ref={canvas} width={width} height={height}></canvas>
       </div>
       <div className="px-5 pt-2 pb-6">
-        <ul ref={legend} className="flex flex-wrap justify-center -m-1"></ul>
+        <ul ref={legend} className="-m-1 flex flex-wrap justify-center"></ul>
       </div>
     </div>
   );

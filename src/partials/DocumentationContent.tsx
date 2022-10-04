@@ -1,7 +1,7 @@
+import DocsImage01 from "@/images/docs-image-01.png";
+import DocsImage02 from "@/images/docs-image-02.png";
+import DocsImage03 from "@/images/system-overview-light.png";
 import Image from "next/future/image";
-import DocsImage01 from "../images/docs-image-01.png";
-import DocsImage02 from "../images/docs-image-02.png";
-import DocsImage03 from "../images/system-overview-light.png";
 
 function DocumentationContent() {
   return (

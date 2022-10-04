@@ -1,6 +1,6 @@
 /* global document */
+import Transition from "@/utils/Transition";
 import { useEffect, useRef, useState } from "react";
-import Transition from "../utils/Transition";
 
 function DatasetDropdown() {
   const options = [

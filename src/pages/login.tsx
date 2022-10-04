@@ -1,8 +1,8 @@
+import loginAnimation1 from "@/animations/login-animation-2.json";
 import { useLottie } from "lottie-react";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import loginAnimation1 from "../animations/login-animation-2.json";
 
 function Login({ query }: { query: { callback: string } }) {
   const router = useRouter();

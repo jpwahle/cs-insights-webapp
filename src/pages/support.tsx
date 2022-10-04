@@ -1,7 +1,7 @@
+import Footer from "@/partials/Footer";
+import Header from "@/partials/LandingHeader";
 import Link from "next/link";
 import { FormEvent } from "react";
-import Footer from "../partials/Footer";
-import Header from "../partials/LandingHeader";
 
 function Support() {
   const handleSubmit = (e: FormEvent) => {

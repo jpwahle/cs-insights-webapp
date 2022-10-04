@@ -1,9 +1,9 @@
-import AboutIntro from "../partials/AboutIntro";
-import AboutStory from "../partials/AboutStory";
-import CtaAlternative from "../partials/CtaAlternative";
-import Footer from "../partials/Footer";
-import Header from "../partials/LandingHeader";
-import Team from "../partials/Team";
+import AboutIntro from "@/partials/AboutIntro";
+import AboutStory from "@/partials/AboutStory";
+import CtaAlternative from "@/partials/CtaAlternative";
+import Footer from "@/partials/Footer";
+import Header from "@/partials/LandingHeader";
+import Team from "@/partials/Team";
 
 function About() {
   return (

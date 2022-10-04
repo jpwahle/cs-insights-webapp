@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
+import TopImage from "@/images/features-top-image.png";
 import Image from "next/future/image";
-import TopImage from "../images/features-top-image.png";
 
 function FeaturesHome() {
   const [tab, setTab] = useState(1);

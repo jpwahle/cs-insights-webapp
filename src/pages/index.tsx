@@ -1,10 +1,10 @@
+import Cta from "@/partials/Cta";
+import FeaturesHome from "@/partials/FeaturesHome";
+import FeaturesWorld from "@/partials/FeaturesWorld";
+import Footer from "@/partials/Footer";
+import HeroHome from "@/partials/HeroHome";
+import Header from "@/partials/LandingHeader";
 import type { NextPage } from "next";
-import Cta from "../partials/Cta";
-import FeaturesHome from "../partials/FeaturesHome";
-import FeaturesWorld from "../partials/FeaturesWorld";
-import Footer from "../partials/Footer";
-import HeroHome from "../partials/HeroHome";
-import Header from "../partials/LandingHeader";
 
 const Home: NextPage = () => {
   return (

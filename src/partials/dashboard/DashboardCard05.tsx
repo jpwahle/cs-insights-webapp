@@ -1,8 +1,8 @@
+import RealtimeChart from "@/partials/charts/RealtimeChart";
 import { useEffect, useState } from "react";
-import RealtimeChart from "../charts/RealtimeChart";
 
 // Import utilities
-import { hexToRGB, tailwindConfig } from "../../utils/Utils";
+import { hexToRGB, tailwindConfig } from "@/utils/Utils";
 
 function DashboardCard05() {
   // IMPORTANT:

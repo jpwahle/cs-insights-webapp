@@ -1,10 +1,10 @@
 /* global document */
 /* global window */
+import UserMenu from "@/components/DropdownProfile";
+import Transition from "@/utils/Transition";
 import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import UserMenu from "../components/DropdownProfile";
-import Transition from "../utils/Transition";
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);

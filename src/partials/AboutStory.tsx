@@ -1,8 +1,8 @@
 import Image from "next/future/image";
 import Link from "next/link";
 
-import AboutImage from "../images/about-02.jpg";
-import AboutLogo from "../images/about-logo.png";
+import AboutImage from "@/images/about-02.jpg";
+import AboutLogo from "@/images/about-logo.png";
 
 function AboutStory() {
   return (

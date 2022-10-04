@@ -1,8 +1,8 @@
 import Image from "next/future/image";
 
-import PlanetAvatar01 from "../images/planet-avatar-01.png";
-import PlanetAvatar02 from "../images/planet-avatar-02.png";
-import PlanetImage from "../images/planet.png";
+import PlanetAvatar01 from "@/images/planet-avatar-01.png";
+import PlanetAvatar02 from "@/images/planet-avatar-02.png";
+import PlanetImage from "@/images/planet.png";
 
 function FeaturesWorld() {
   return (

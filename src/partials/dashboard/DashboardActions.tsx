@@ -1,9 +1,9 @@
 /* global window */
 /* global navigator */
 
-import DatasetDropdown from "../../components/DatasetDropdown";
-import Datepicker from "../../components/Datepicker";
-import DropdownFilter from "../../components/DropdownFilter";
+import DatasetDropdown from "@/components/DatasetDropdown";
+import Datepicker from "@/components/Datepicker";
+import DropdownFilter from "@/components/DropdownFilter";
 import DashboardAvatars from "./DashboardAvatars";
 
 function DashboardActions() {

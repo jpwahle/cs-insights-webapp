@@ -11,7 +11,7 @@ import {
 import "chartjs-adapter-moment";
 
 // Import utilities
-import { tailwindConfig } from "../../utils/Utils";
+import { tailwindConfig } from "@/utils/Utils";
 
 Chart.register(DoughnutController, ArcElement, TimeScale, Tooltip);
 

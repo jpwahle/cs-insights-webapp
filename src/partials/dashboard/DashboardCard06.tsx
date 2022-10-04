@@ -1,7 +1,7 @@
-import DoughnutChart from "../charts/DoughnutChart";
+import DoughnutChart from "@/partials/charts/DoughnutChart";
 
 // Import utilities
-import { tailwindConfig } from "../../utils/Utils";
+import { tailwindConfig } from "@/utils/Utils";
 
 function DashboardCard06() {
   const chartData = {

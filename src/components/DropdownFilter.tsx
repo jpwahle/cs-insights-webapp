@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Select, { components } from "react-select";
 
-import Transition from "../utils/Transition";
+import Transition from "@/utils/Transition";
 
 export const authorOptions = [
   { value: "Terry Ruas", label: "Ruas" },

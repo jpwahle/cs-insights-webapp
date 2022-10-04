@@ -1,5 +1,5 @@
+import AboutImage from "@/images/about-01.jpg";
 import Image from "next/future/image";
-import AboutImage from "../images/about-01.jpg";
 
 function AboutIntro() {
   return (

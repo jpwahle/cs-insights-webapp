@@ -1,7 +1,7 @@
-import LineChart from "../charts/LineChart02";
+import LineChart from "@/partials/charts/LineChart02";
 
 // Import utilities
-import { tailwindConfig } from "../../utils/Utils";
+import { tailwindConfig } from "@/utils/Utils";
 
 function DashboardCard08() {
   const chartData = {

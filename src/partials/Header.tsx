@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import UserMenu from "../components/DropdownProfile";
+import UserMenu from "@/components/DropdownProfile";
 
 function Header({
   sidebarOpen,

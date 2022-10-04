@@ -1,9 +1,9 @@
+import HeroImage from "@/images/hero-image-01.png";
+import Modal from "@/utils/Modal";
 import { useSession } from "next-auth/react";
 import Image from "next/future/image";
 import Link from "next/link";
 import { useState } from "react";
-import HeroImage from "../images/hero-image-01.png";
-import Modal from "../utils/Modal";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);

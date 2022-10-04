@@ -1,7 +1,7 @@
-import BarChart from "../charts/BarChart02";
+import BarChart from "@/partials/charts/BarChart02";
 
 // Import utilities
-import { tailwindConfig } from "../../utils/Utils";
+import { tailwindConfig } from "@/utils/Utils";
 
 function DashboardCard09() {
   const chartData = {

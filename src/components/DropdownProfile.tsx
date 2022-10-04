@@ -1,13 +1,13 @@
 /* global document */
 
+import Transition from "@/utils/Transition";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import Transition from "../utils/Transition";
 
+import DefaultUserAvatar from "@/images/user-avatar-32.png";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/future/image";
 import { useRouter } from "next/router";
-import DefaultUserAvatar from "../images/user-avatar-32.png";
 
 type DropdownProfileProps = {
   align: string;
@@ -94,7 +94,7 @@ function DropdownProfile({ align }: DropdownProfileProps) {
           onBlur={() => setDropdownOpen(false)}
         >
           <div className="mb-1 border-b border-slate-200 px-3 pt-0.5 pb-2">
-            <div className="font-medium text-slate-800">
+            <div className="text-sm font-semibold text-slate-800">
               {session?.user?.email}
             </div>
           </div>

@@ -1,8 +1,8 @@
 import Image from "next/future/image";
 
-import JanPhilipWahle from "../images/about-jan-philip-wahle.png";
-import SaifMMohammad from "../images/about-saif-m-mohammad.jpg";
-import TerryRuas from "../images/about-terry-ruas.jpg";
+import JanPhilipWahle from "@/images/about-jan-philip-wahle.png";
+import SaifMMohammad from "@/images/about-saif-m-mohammad.jpg";
+import TerryRuas from "@/images/about-terry-ruas.jpg";
 
 function Team() {
   return (

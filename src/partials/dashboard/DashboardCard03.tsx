@@ -1,11 +1,11 @@
+import EditMenu from "@/components/DropdownEditMenu";
+import Icon from "@/images/icon-03.svg";
+import LineChart from "@/partials/charts/LineChart01";
 import Link from "next/link";
-import EditMenu from "../../components/DropdownEditMenu";
-import Icon from "../../images/icon-03.svg";
-import LineChart from "../charts/LineChart01";
 
 // Import utilities
+import { hexToRGB, tailwindConfig } from "@/utils/Utils";
 import Image from "next/future/image";
-import { hexToRGB, tailwindConfig } from "../../utils/Utils";
 
 function DashboardCard03() {
   const chartData = {

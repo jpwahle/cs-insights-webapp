@@ -1,3 +1,4 @@
+import { formatThousands } from "@/utils/Utils";
 import {
   CategoryScale,
   Chart,
@@ -11,7 +12,6 @@ import {
 } from "chart.js";
 import "chartjs-adapter-moment";
 import { Line } from "react-chartjs-2";
-import { formatThousands } from "../../utils/Utils";
 
 // Import utilities
 
